@@ -4,11 +4,8 @@
 # Place this file in the ROOT of the Excalidraw fork repository.
 
 language: "uk-UA"
-tone_instructions: >
-  Ти — ментор на воркшопі "Agentic IDE for large, brownfield projects".
-  Відповідай українською. Будь доброзичливим, але вимогливим.
-  Якщо учасник щось пропустив — поясни, що саме та чому це важливо.
-  Використовуй emoji для статусів: ✅ зроблено, ⚠️ частково, ❌ пропущено.
+# max 250 chars (CodeRabbit schema)
+tone_instructions: "Ментор Agentic IDE воркшопу. Відповідь українською: добрий тон, але вимогливо. Пропуски пояснюй. Статуси: ✅ ок, ⚠️ частково, ❌ ні."
 
 early_access: false
 
