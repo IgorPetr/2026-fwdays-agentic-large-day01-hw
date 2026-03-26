@@ -26,9 +26,6 @@ yarn-error.log*
 .git/
 packages/excalidraw/types
 **/__snapshots__
-packages/excalidraw/fonts/ComicShanns/index.ts
-packages/excalidraw/fonts/Excalifont/index.ts
-packages/excalidraw/fonts/Xiaolai/index.ts
 packages/excalidraw/fonts/wasm
 packages/excalidraw/locales/percentages.json
 packages/excalidraw/subset/**/harfbuzz-wasm.ts

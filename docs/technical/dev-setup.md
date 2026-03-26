@@ -6,7 +6,7 @@ From clone to first PR. All steps verified against repository sources.
 
 ## 1. Overview
 
-Yarn 1 workspace monorepo. One `yarn install` at the root covers all workspaces: `excalidraw-app`, `packages/*`, and `examples/*`. No separate per-package install needed. There is no `CONTRIBUTING.md` or `CODEOWNERS` file in this repository.
+Yarn 1 workspace monorepo. One `yarn install` at the root covers the primary workspaces: `excalidraw-app` and `packages/*`. Example sub-folders (e.g., `examples/with-nextjs`) are declared as workspaces in the root `package.json` but ship their own `yarn.lock` and require a separate `yarn install` inside the sub-folder for standalone use. There is no `CONTRIBUTING.md` or `CODEOWNERS` file in this repository.
 
 ---
 
